@@ -16,7 +16,7 @@ class Huya(DMAPI):
         reg_datas = []
         url = "https://m.huya.com/" + split_url(url)[1]
         headers = {
-            "user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Mobile Safari/537.36"
+            "user-agent": "Mozilla/5.0 (Linux; Android 13; SM-A536E) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36  uacq"
         }
         async with aiohttp.ClientSession() as session:
             async with session.get(url, headers=headers) as resp:
