@@ -18,12 +18,12 @@ import logging
 class huya(BaseAPI):
     header = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.68",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
     }
     header_mobile = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) '
-                      'Chrome/75.0.3770.100 Mobile Safari/537.36 '
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 13; SM-A037U) AppleWebKit/537.36 (KHTML, like Gecko) '
+                      'Chrome/112.0.0.0 Mobile Safari/537.36  uacq '
     }
 
     def __init__(self, rid: str) -> None:
